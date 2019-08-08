@@ -5,23 +5,20 @@
     opacity: .75;
     padding: 60px;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
+  width:100%;
   background-size: cover; 
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   margin-top: 100px;
 }
-.customJumbo ::after{
+/* .customJumbo ::after{
   block-size: 540px 50px;
-}
+} */
   .customJumbo p{
     font-size: 18;
     color: #38566a;
   }
     
-  
-  
-  
-  
   .headp{
     
     font-size: 1rem;
@@ -178,3 +175,14 @@ svg{
 
 
 }
+
+@media only screen and (max-width: 1280px) {
+.customJumbo h1 {
+  font-size: 3rem;
+}
+}
+@media only screen and (max-width: 720px) {
+  .customJumbo h1 {
+    font-size: 2rem;
+  }
+  }
